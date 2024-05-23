@@ -7,4 +7,4 @@ cd ~/app
 pip install -r requirements.txt
 
 # Restart the Flask app (assuming you're using gunicorn and systemd)
-sudo systemctl restart your-flask-app.service
+sudo systemctl restart flaskapp.service
