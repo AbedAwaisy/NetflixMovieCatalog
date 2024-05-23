@@ -6,6 +6,7 @@ After=network.target
 User=ec2-user
 WorkingDirectory=/home/ec2-user/app
 ExecStart=/usr/bin/python3 /home/ec2-user/app/app.py
+AmbientCapabilities=CAP_NET_BIND_SERVICE
 Restart=always
 
 [Install]
