@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: netflix-catalog
-        image: assiabd469/netflix_movie_catalog:0.0.1
+        image: abedawaisy/netflix:0.0.1
         ports:
           - containerPort: 8080
 
